@@ -15,8 +15,8 @@ body {
 
 iframe {
     border-radius: 10px;
-    height: 500px; /* Mantém a proporção */
-    width: 50%; /* Por padrão, ocupa toda a largura */
+    height: 450px; /* Mantém a proporção */
+    width: 60%; /* Por padrão, ocupa toda a largura */
     max-height: 100vh; /* Garante que o vídeo não ultrapasse a altura da tela */
   }
 
