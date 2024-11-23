@@ -21,7 +21,7 @@ html, body {
 
 /* Estilo para a imagem do logotipo */
 .logo {
-    max-width: 95%;
+    max-width: 65%;
     height: auto;
     margin-bottom: 1px; /* Espaço entre o logotipo e os ícones sociais */
 }
@@ -31,7 +31,7 @@ html, body {
     display: flex;
     flex-direction: column; /* Coloca os ícones em uma coluna */
     align-items: center; /* Centraliza os ícones */
-    gap: 10px; /* Espaçamento entre os ícones */
+    gap: 5px; /* Espaçamento entre os ícones */
     
 }
 
@@ -40,6 +40,7 @@ html, body {
     .social-icons {
         flex-direction: row; /* Alinha os ícones horizontalmente */
         justify-content: center; /* Centraliza horizontalmente */
+    
     }
 }
 
