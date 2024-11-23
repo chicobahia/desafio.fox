@@ -21,7 +21,7 @@ html, body {
 
 /* Estilo para a imagem do logotipo */
 .logo {
-    max-width: 70%;
+    max-width: 90%;
     height: auto;
     margin-bottom: 20px; /* Espaço entre o logotipo e os ícones sociais */
 }

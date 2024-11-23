@@ -1,0 +1,31 @@
+@charset "UTF-8";
+
+
+body {
+    margin: 0; /* Remove margens padrão */
+    display: flex; /* Ativa o Flexbox */
+    align-items: center; /* Centraliza verticalmente */
+    justify-content: center; /* Centraliza horizontalmente */
+    min-height: 100vh; /* Garante que o corpo ocupe 100% da altura da tela */
+    background-color: #fee9ca; /* Cor de fundo (opcional) */
+    flex-direction: column; /* Organiza os elementos verticalmente */
+    
+  }
+
+
+iframe {
+    border-radius: 10px;
+    height: 500px; /* Mantém a proporção */
+    width: 50%; /* Por padrão, ocupa toda a largura */
+    max-height: 100vh; /* Garante que o vídeo não ultrapasse a altura da tela */
+  }
+
+  @media (min-width: 768px) {
+    iframe {
+      max-width: 500px; /* Fixar largura para telas maiores */
+      height: 50vh;
+      width: 50vw;
+    }
+}
+
+
