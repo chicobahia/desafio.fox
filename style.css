@@ -15,15 +15,15 @@ html, body {
     justify-content: center;
     align-items: center;
     flex-direction: column; /* Para empilhar os elementos verticalmente */
-    height: 83vh; /* Ocupa a altura total da viewport */
+    height: 100vh; /* Ocupa a altura total da viewport */
     text-align: center; /* Centraliza o texto */
 }
 
 /* Estilo para a imagem do logotipo */
 .logo {
-    max-width: 90%;
+    max-width: 95%;
     height: auto;
-    margin-bottom: 20px; /* Espaço entre o logotipo e os ícones sociais */
+    margin-bottom: 1px; /* Espaço entre o logotipo e os ícones sociais */
 }
 
 /* Estilo para o contêiner dos ícones sociais */
@@ -42,6 +42,7 @@ html, body {
         justify-content: center; /* Centraliza horizontalmente */
     }
 }
+
 
 /* Estilo individual dos ícones sociais */
 .social-icons>img {
