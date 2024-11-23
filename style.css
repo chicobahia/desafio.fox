@@ -6,7 +6,7 @@ html, body {
     background-color: rgba(255, 228, 196, 0.329);
     margin: 0;
     padding: 0;
-    height: 100%;
+    height: 100vh;
     font-family: Arial, sans-serif;
 }
 
@@ -15,15 +15,15 @@ html, body {
     justify-content: center;
     align-items: center;
     flex-direction: column; /* Para empilhar os elementos verticalmente */
-    height: 100vh; /* Ocupa a altura total da viewport */
+    height: 90%; /* Ocupa a altura total da viewport */
     text-align: center; /* Centraliza o texto */
 }
 
 /* Estilo para a imagem do logotipo */
 .logo {
-    max-width: 65%;
+    width: 30%;
     height: auto;
-    margin-bottom: 1px; /* Espaço entre o logotipo e os ícones sociais */
+    margin-bottom: 5px; /* Espaço entre o logotipo e os ícones sociais */
 }
 
 /* Estilo para o contêiner dos ícones sociais */
@@ -45,9 +45,16 @@ html, body {
 }
 
 
+@media (min-width: 768px) {
+    .logo {
+        max-width: 65%;
+        max-height: 100%
+    }
+}
+
 /* Estilo individual dos ícones sociais */
 .social-icons>img {
-    width: 30px; /* Tamanho dos ícones */
+    width: 20px; /* Tamanho dos ícones */
     height: auto;
     cursor: pointer; /* Muda o cursor ao passar sobre os ícones */
     transition: transform 0.3s ease; /* Animação para efeito ao passar o mouse */
