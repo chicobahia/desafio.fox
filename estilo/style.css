@@ -20,11 +20,16 @@ iframe {
     max-height: 100vh; /* Garante que o vídeo não ultrapasse a altura da tela */
   }
 
+
   @media (min-width: 768px) {
     iframe {
-      max-width: 500px; /* Fixar largura para telas maiores */
-      height: 50vh;
-      width: 50vw;
+        height: calc(100vw * 9 / 16); /* Proporção 16:9 */
+    }
+}
+
+  @media (max-width: 767px) {
+    iframe {
+        height: calc(100vw * 9 / 16); /* Mantém a proporção, mas para telas menores */
     }
 }
 
