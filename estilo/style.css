@@ -15,22 +15,25 @@ body {
 
 iframe {
     border-radius: 10px;
-    height: 450px; /* Mantém a proporção */
-    width: 70%; /* Por padrão, ocupa toda a largura */
-    max-height: 100vh; /* Garante que o vídeo não ultrapasse a altura da tela */
+    height: 80%; /* Mantém a proporção */
+    width: 80%; /* Por padrão, ocupa toda a largura */
+    max-height: 100% /* Garante que o vídeo não ultrapasse a altura da tela */
   }
-
 
   @media (min-width: 768px) {
     iframe {
-        height: calc(100vw * 9 / 16); /* Proporção 16:9 */
+      max-width: 70vw; /* Fixar largura para telas maiores */
+      height: 70vh;
+      width: 90vw;
     }
 }
 
-  @media (max-width: 767px) {
-    iframe {
-        height: calc(100vw * 9 / 16); /* Mantém a proporção, mas para telas menores */
-    }
+@media (max-width: 768px) {
+  iframe {
+    max-width: 500px; /* Fixar largura para telas maiores */
+    height: 84vh;
+    width: 90vw;
+  }
 }
 
 
