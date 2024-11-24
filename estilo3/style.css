@@ -1,3 +1,88 @@
 @charset "UTF-8";
 
+body {
+    background-color: #faebd781;
+}
 
+.carousel-inner {
+    background-color: #CCCCCC;
+    border-radius: 10px;
+}
+
+#cn {
+    background-color: #9e917a33;
+    width: 70vw;
+    height: 75vh;
+    border-radius: 20px;
+    max-height: 800px;
+    overflow: auto;
+    
+}
+
+#c1 {
+    background-color: rgba(0, 0, 0, 0.797);
+    text-align: justify;
+}
+
+#c1>a {
+    text-decoration: none;
+    display: block;
+    margin-top: 150px;
+    margin-left: 130px;
+    color: #FAEBD7;
+}
+
+#c1>a:hover {
+    color: #CCCCCC;
+}
+
+#c2 {
+    background-color: rgba(0, 0, 0, 0.797);
+    text-align: justify;
+}
+
+#c2>a {
+    text-decoration: none;
+    display: block;
+    margin-top: 150px;
+    margin-left: 130px;
+    color: #FAEBD7;
+}
+
+#c2>a:hover {
+    color: #CCCCCC;
+}
+
+#c3 {
+    background-color: rgba(0, 0, 0, 0.797);
+    text-align: justify;
+    height: 800px;
+    
+}
+
+#c3>a {
+    text-decoration: none;
+    display: block;
+    margin-top: 25px;
+    margin-left: 130px;
+    color: #FAEBD7;
+}
+
+#c3>a:hover {
+    color: #CCCCCC;
+}
+
+#v {
+    background-color: #b7b5b5;
+    width: 70vw;
+    height: 50vh;
+    border-radius: 10px;
+}
+
+#v1 {
+    margin: auto;
+}
+
+#v2 {
+    margin: auto;
+}
