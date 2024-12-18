@@ -9,68 +9,34 @@ body {
     border-radius: 10px;
 }
 
-#cn {
-    background-color: #9e917a33;
-    width: 70vw;
-    height: 75vh;
-    border-radius: 20px;
-    max-height: 800px;
-    overflow: auto;
-    
-}
-
 #c1 {
-    background-color: rgba(0, 0, 0, 0.797);
+    background-color: #535252;
+    height: 800px;
     text-align: justify;
-}
-
-#c1>a {
-    text-decoration: none;
-    display: block;
-    margin-top: 150px;
-    margin-left: 130px;
-    color: #FAEBD7;
-}
-
-#c1>a:hover {
-    color: #CCCCCC;
+    color: rgb(252, 252, 252);
+    overflow-y: scroll;
+    
 }
 
 #c2 {
-    background-color: rgba(0, 0, 0, 0.797);
+    background-color: #535252;
+    font-size: small;
+    height: 400px;
     text-align: justify;
-}
-
-#c2>a {
-    text-decoration: none;
-    display: block;
-    margin-top: 150px;
-    margin-left: 130px;
-    color: #FAEBD7;
-}
-
-#c2>a:hover {
-    color: #CCCCCC;
-}
-
-#c3 {
-    background-color: rgba(0, 0, 0, 0.797);
-    text-align: justify;
-    height: 800px;
+    color: rgb(252, 252, 252);
+    
     
 }
 
-#c3>a {
-    text-decoration: none;
-    display: block;
-    margin-top: 25px;
-    margin-left: 130px;
-    color: #FAEBD7;
+#c3 {
+    background-color: #535252;
+    height: 730px;
+    text-align: justify;
+    color: rgb(252, 252, 252);
+
+    
 }
 
-#c3>a:hover {
-    color: #CCCCCC;
-}
 
 #v {
     background-color: #b7b5b5;
