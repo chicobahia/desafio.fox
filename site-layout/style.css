@@ -1,0 +1,213 @@
+@charset "UTF-8";
+
+html {
+    height: 100vh;
+}
+
+div.nome {
+    display: flex;
+    align-items: center; 
+    gap: 30px;
+}
+
+nav {
+    position: absolute;    
+    top: 15%;                 
+    font-family: Arial, sans-serif;
+    margin-left: 250px;
+}
+
+
+nav>ul {
+    display: inline;
+}
+
+main {
+    height: 500px;
+}
+
+
+div.corpo {
+    height: 700px;
+    background: linear-gradient(to bottom, purple, rgb(194, 127, 2));
+}
+
+main>div.frutas {
+    margin-top: -550px;
+    display: flex;             
+    justify-content: center;     
+    gap: 5px;                  
+    position: relative;
+
+}
+
+div.uva {
+    display: inline;
+}
+
+div.uva>img {
+    border-radius: 10px;
+}
+
+div.maca {
+    display: inline;
+}
+
+div.maca>img {
+    border-radius: 10px;
+}
+
+div.texto {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 0, 0.621);
+    color: white;
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+    padding: 5px;
+}
+
+.container {
+    display: flex;             
+    justify-content: space-around; 
+    align-items: center;        
+    position: absolute;
+    top: 82%;
+    gap: 5px;
+    margin-left: 120px;
+}
+
+.pills1 {
+    background-color: #964caf; 
+    color: white;              
+    padding: 30px 10px;       
+    font-size: 18px;           
+    border-radius: 50px;      
+    text-align: center;       
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+}
+
+.pills2 {
+    background-color: orangered; 
+    color: white;              
+    padding: 30px 10px;       
+    font-size: 18px;     
+    border-radius: 50px;   
+    text-align: center;  
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.pills3 {
+    background-color: #c59433; 
+    color: white;              
+    padding: 30px 10px;        
+    font-size: 18px;           
+    border-radius: 50px;      
+    text-align: center;        
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+}
+
+div.paragrafo1 {
+    padding-top: 200px;
+    padding-bottom: 100px;
+    text-align: center;
+    font-size: 30px;
+    width: 700px;
+    margin: auto;
+}
+
+.container2 {
+    width: 150px;
+    margin: auto;
+}
+
+.pilldestaque {
+    background-color: orangered;
+    color: white;              
+    padding: 20px 5px;        
+    font-size: 18px;          
+    border-radius: 50px;       
+    text-align: center;        
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+
+.caixas {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding-bottom: 50px;
+    gap: 8px;
+}
+
+.caixa {
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 10px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 150px;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.caixa img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 4px;
+}
+
+.caixa p {
+    font-size: 14px;
+    color: #333;
+    margin: 0;
+}
+
+.container3 {
+    width: 150px;
+    margin: auto;
+    padding-bottom: 30px;
+}
+
+.pillvideos {
+    background-color: orangered;
+    color: white;              
+    padding: 15px 1px;        
+    font-size: 18px;          
+    border-radius: 50px;       
+    text-align: center;        
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    margin-bottom: 50px;
+}
+
+
+.videos {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap; /* Permite que as divs quebrem linha se necessário */
+    gap: 20px; /* Espaço entre as caixas */
+}
+
+.video-container {
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 320px; /* Largura da caixa */
+    text-align: center;
+}
+
+.video-container p {
+    font-size: 14px;
+    color: #333;
+    margin
+}
